@@ -1,0 +1,116 @@
+@media only screen and (max-width:620px){
+    .first-section{
+        width: 100%;
+        height: 70vh;
+    }
+    .navbar{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .navbar ul {
+        width: 30%;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .text h1{
+        width: 100%;
+        font-size: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red */
+    }
+    .second-section{
+        width: 100%;
+        height: auto;
+    }
+    .second-text{
+        width: 80%;
+        height: 40vh;
+    }
+    .second-sec-card{
+        width: 100%;
+        height: 150vh;
+        flex-wrap: wrap;
+    }
+    .third-section{
+        width: 100%;
+        height: auto;
+    }
+    .third-text{
+        width: 100%;
+        height: 20vh;
+    }
+    .third-sec-card{
+        height: auto;
+        flex-direction: column;
+    }
+   
+}
+
+/* ---------390---------- */
+
+@media only screen and (max-width:390px){
+    .first-section{
+        width: 100%;
+        height: 35vh;
+
+    }
+    .first-section img{
+        width: 30px;
+    }
+    .navbar{
+        width: 100%;
+    height: 15vh;
+        /* border: 1px solid red; */
+    }
+    .navbar ul {
+        font-size: 12px;
+    }
+    .text{
+        width: 100%;
+        height: auto;
+    }
+    .text h1 {
+        width: 100%;
+        font-size: 35px;
+        /* border: 1px solid red; */
+    }
+    .text p {
+        /* width: 100%; */
+        font-size: 15px;
+        /* border: 1px solid red; */
+    }
+    .text img {
+        width: 40px;
+        margin: 0%;
+    }
+    .second-section{
+        width: 100%;
+        height: auto;
+    }
+    .second-text{
+        width: 80%;
+        height: 50vh;
+    }
+    .second-sec-card{
+        width: 100%;
+        height: auto;
+    }
+    .third-section{
+        width: 100%;
+        height: auto;
+    }
+    .third-text{
+        width: 100%;
+    }
+    .card2 img {
+        width: 65%;
+    }
+    .card2 p{
+        width: 70% !important;
+        /* border: 1px solid red; */
+    }
+}
